@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #00284e;
+}
+
+.card {
+  border: none;
+  border-radius: 25px;
+}
+
+.c-details span {
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.badge span {
+  background-color: #fffbec;
+  width: 80px;
+  height: 30px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  color: #ff3c00;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  border: 1px solid;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 50 50'%3E%3Cpath d='M28.43 6.378C18.27 4.586 8.58 11.37 6.788 21.533c-1.791 10.161 4.994 19.851 15.155 21.643l.707-4.006C14.7 37.768 9.392 30.189 10.794 22.24c1.401-7.95 8.981-13.258 16.93-11.856l.707-4.006z'%3E%3CanimateTransform attributeType='xml' attributeName='transform' type='rotate' from='0 25 25' to='360 25 25' dur='0.6s' repeatCount='indefinite'/%3E%3C/path%3E%3C/svg%3E")
+    center / 50px no-repeat;
+}
+
+.heading {
+  margin: 10px 0 5px;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 20px;
+}
